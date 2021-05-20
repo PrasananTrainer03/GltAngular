@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        var sid = ['S001', 'S002', 'S003', 'S004','S005'];
+        function load() {
+            //alert("Hi");
+            var len = sid.length;
+            len = len - 1;
+            var stId = sid[len];
+            var id = parseInt(stId.substring(1));
+            id++;
+            if (id >= 1 && id <= 9) {
+                stId = "S00" + id;
+            }
+            if (id >= 10 && id <= 99) {
+                stId = "S0" + id;
+            }
+            if (id >= 100 && id <= 999) {
+                stId = "S" + id;
+            }
+            frmStock.txtStockId.value = stId;
+        }
+        function show() {
+            var result = "";
+            var isValid = true;
+            if (frmStock.txtStockName.value == "") {
+                result += "Stock Name cannot be Null... <br/>";
+                isValid = false;
+            }
+            if (frmStock.txtStockName.value.length < 5) {
+                result += "Stock Name must be min. 5 chars...<br/>";
+                isValid = false;
+            }
+            if (frmStock.txtQtyAvail.value == "") {
+                document.getElementById("errQtyAvail").innerHTML = "Quantity Cannot be Null<br/>";
+                isValid = false;
+            } else {
+                var qty = parseInt(frmStock.txtQtyAvail.value);
+                if (qty > 1000) {
+                    document.getElementById("errQtyAvail").innerHTML = "Quantity Cannot be greater than 1000...<br/>";
+                    isValid = false;
+                }
+            }
+            if (isValid == false) {
+                document.getElementById("errStockName").innerHTML = result;
+            }
+            if (isValid == true) {
+                document.getElementById("errStockName").innerHTML = "";
+                document.getElementById("errQtyAvail").innerHTML = "";
+                result = "";
+                result += "Stock Name is  " + frmStock.txtStockName.value + "<Br/>";
+                result += "Quantity is  " + frmStock.txtQtyAvail.value + "<br/>";
+                document.getElementById("result").innerHTML = result;
+            }
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="load()">
+    <form name="frmStock">
+        <table border="3" align="center">
+            <tr>
+                <th>Stock Id</th>
+                <td>
+                    <input type="text" readonly name="txtStockId" />
+                </td>
+            </tr>
+            <tr>
+                <th>Item Name</th>
+                <td>
+                    <input type="text" name="txtStockName" />
+                    <span id="errStockName"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>Quantity Available</th>
+                <td>
+                    <input type="number" name="txtQtyAvail" />
+                    <span id="errQtyAvail"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>Item Description</th>
+                <td>
+                    <input type="text" name="txtDescription" />
+                </td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td>
+                    <select name="city">
+                        <option value="Select City">Select City</option>
+                        <option value="Hyderabad">Hydereabad</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Mumbai">Mumbai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    ZipCode
+                </th>
+                <td>
+                    <input type="text" name="zipCode" />
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <input type="button" value="Show" onclick="show()" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="Reset" />
+                </th>
+            </tr>
+        </table>
+        <span id="result"></span>
+    </form>
+</body>
+</html>
