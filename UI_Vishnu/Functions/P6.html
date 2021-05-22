@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        var result = "";
+        function arrayDemo() {
+            var names = ["vishnu", "vinay", "vijay", "nithin"];
+            for (var v in names.reverse()) {
+                result += names[v] + "  ";
+            }
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="arrayDemo()">
+    <span id="result"></span>
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        var questions = [
+            "1. HTML stands for",
+            "2. FTP Means",
+            "3. TCP/IP means",
+            "4. Javascript is ____ language",
+            "5. HTML 5 ______ tag used for yellow highlighting"
+        ]
+        var i = 0;
+        var len = questions.length;
+
+        function previous() {
+            i = i - 1;
+            if (i < 0) {
+                alert("No Questions before...");
+                return;
+            }
+            load();
+        }
+        function next() {
+            i = i + 1;
+            if (i >= len) {
+                alert("Exam Over...");
+                return;
+            }
+            load();
+        }
+        function load() {
+            document.getElementById("question").innerHTML = questions[i];
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="load()">
+    <p id="question">
+
+    </p> <br/><br/> 
+    <input type="button" value="Next" onclick="next()" /> &nbsp;&nbsp;&nbsp;
+    <input type="button" value="Previous" onclick="previous()" /> 
+</body>
+</html>

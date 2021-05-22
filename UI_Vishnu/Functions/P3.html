@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        function strDemo() {
+            var str = "Welcome to Javascript programming...From Vishnu";
+            var result = "";
+            result += "Length of String is  " + str.length + "<br/>";
+            result += "First Occurrence of Given Char is " + str.indexOf("a") + "<br/>";
+            result += "Char at 5th position  " + str.charAt(5) + "<br/>";
+            result += "Lower Case String is  " + str.toLowerCase() + "<br/>";
+            result += "Upper Case String is  " + str.toUpperCase() + "<br/>";
+            result += "Substring is  " + str.substr(0, 25) + "<br/>";
+            result += "Replaced String is : " + str.replace("Javascript", "Jquery") + "<br/>";
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="strDemo()">
+    <span id="result"></span>
+</body>
+</html>

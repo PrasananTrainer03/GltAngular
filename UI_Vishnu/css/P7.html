@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="MainForm" align="Left">
+        <form name="RegForm" id="inputForm1" action="" method="GET">
+            &nbsp;&nbsp;&nbsp;
+            <table>
+                <tr>
+                    <th>
+                        <label name="user-id" class="Mandatory">User Id : </label>
+                    </th>
+                    <td>
+                        <input type="text" class="all" name="txtU" />
+                        <label id="errUser-id" class="error"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label name="Pwd" class="Mandatory">Password : </label>
+                    </th>
+                    <td>
+                        <input type="Password" class="all" name="txtP" id="txtPassword" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label name="Na" class="Mandatory">Name : </label>
+                    </th>
+                    <td>
+                        <input type="text" class="all" name="txtName" id="txtme" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label name="Ad" class="Optional">Address: </label>
+                    </th>
+                    <td>
+                        <input type="text" class="all" name="txtAddress" id="txtdress" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label name="Co" class="Mandatory">Country : </label>
+                    </th>
+                    <td>
+                        <select class="all" id="Country">
+                            <option value="India">India</option>
+                            <option value="America">America</option>
+                            <option value="Great-Britain">Great-Britain</option>
+                            <option value="Germany">Germany</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label name="Em" class="Mandatory">Zip : </label>
+                    </th>
+                    <td>
+                        <input type="text" class="all" name="txtZip" id="txtE" size="15">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label name="Em" class="Mandatory">Email : </label>
+                    </th>
+                    <td>
+                        <input type="text" class="all" name="txtEmail" id="txtE" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label name="Gend" class="Mandatory">Sex : </label>
+                    </th>
+                    <td>
+                        <input type="Radio" name="Gender" id="RMale">
+                        <label class="Optional">Male</label>
+                        <input type="Radio" name="Gender" id="RFemale">
+                        <label class="Optional">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label name="Abo" class="Optional">About : </label>
+                    </th>
+                    <td>
+                        <textarea class="all" id="AboutBox" rows="2" cols="30">					
+        				</textarea>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <input class="all" type="button" Id="Sub" value="Submit" align="center" onClick="return ValidateForm(RegForm)">
+                    </th>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+
+        input.numbers {
+            font-weight: bold;
+            font-size: 15px;
+            width: 50px;
+            text-align: center;
+        }
+
+        input.operators {
+            width: 50px;
+            font-weight: bold;
+            color: red;
+            background: #CCCCCC;
+            font-size: 15px;
+        }
+
+        p.title {
+            font-size: 60px;
+            color: #33CCFF;
+            font-family: "DejaVu Sans";
+            font-weight: bold;
+        }
+
+        div.MainForm {
+            width: 250px;
+            padding: 10px;
+            margin: 10px auto;
+            border: 5px solid gray;
+            vertical-align: center;
+            background: #3366CC;
+        }
+        body {
+            text-align:center;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p class="title">
+        Online calculator
+    </p>
+    <div class="MainForm" align="center">
+        <form name="ipForm" id="CalculatorForm1" action="" method="GET">
+            <p class="msg">...</p>
+            <input type="text" value="" readonly id="display" class="output">
+            <br /><br /><br />
+            <input class="numbers" type="button" value="7" id="7" />
+            <input class="numbers" type="button" value="8" id="8" />
+            <input class="numbers" type="button" value="9" id="9" />
+            <input class="operators" type="button" value="+" id="a" />
+
+            <br />
+            <input class="numbers" type="button" value="4" id="4" />
+            <input class="numbers" type="button" value="5" id="5" />
+            <input class="numbers" type="button" value="6" id="6" />
+            <input class="operators" type="button" value="-" id="s" />
+
+            <br />
+            <input class="numbers" type="button" value="1" id="1" />
+            <input class="numbers" type="button" value="2" id="2" />
+            <input class="numbers" type="button" value="3" id="3" />
+            <input class="operators" type="button" value="*" id="m" />
+
+            <br />
+            <input class="numbers" type="button" value="0" id="0" />
+            <input class="numbers" type="button" value="." id="e" />
+            <input class="operators" type="button" value="C" />
+
+            <input class="operators" type="button" value="   /   " id="d" onClick="operation(4)" />
+
+            <br />
+            <br />
+            <input class="operators" type="button" value="   =   " id="e" onClick="operation(5)" />
+
+        </form>
+    </div>
+
+</body>
+</html>
