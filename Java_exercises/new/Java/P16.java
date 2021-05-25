@@ -4,9 +4,9 @@ public class P16 {
             System.out.println("B");
             throw new ArithmeticException();
          }
-         // catch(ArithmeticException e) {
-        //     System.out.println("A");
-        // }
+         catch(ArithmeticException e) {
+             System.out.println("A");
+         }
          catch(Exception e) {
             System.out.println("C");
         } finally {

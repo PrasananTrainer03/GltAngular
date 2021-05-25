@@ -1,0 +1,41 @@
+1) Write a Program as accept email, if userName length > 12 chars then throw InvalidUserException
+if @ not found, then please throw InvalidEmailException, else print the email address. 
+
+2) Write a program as accept age, and if age < 18 then throw InvalidVotingException, else 
+print the age. 
+
+__________________________________________________________________________________________________
+
+
+Collections : Arrays are basically static data structures as 
+once they are assigned, we cannot alter the size. For this, we need the help 
+of collections. 
+
+Collections stores data w.r.t. Object format, collections can grow to any 
+size. 
+
+Collections are coming from util package. 
+
+java.util package that which contains all collection data. 
+
+Scanner : Used to read the data from the keyboard. 
+
+Scanner sc = new Scanner(System.in); 
+
+nextInt()
+nextLine()
+
+etc...
+
+In collections, we have 3 top level interfaces as
+
+List : This interface contains the list of values. In this we have ArrayList, LinkedList and Vector. 
+
+Set : Used to eliminate the duplicates from the given collection. 
+
+	HashSet and LinkedHashSet are falling under Set interface. 
+
+SortedSet : Allows you to sort the data on specific fields. TreeSet is falling under SortedSet. 
+
+
+
