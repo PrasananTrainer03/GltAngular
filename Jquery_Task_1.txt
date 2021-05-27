@@ -1,0 +1,26 @@
+
+
+Tasks : 
+_________
+
+
+  I need ur own example for Accordion, which contains your
+
+Course Details
+
+Office Details
+
+Project Details (tasks you did) 
+
+
+Task : 
+______
+
+the Javascript LeaveApplication Form, please do that again by using
+Jquery, 
+
+LeaveStartDate cannot be yesterday
+LeaveEndDate cannot be Yesterday
+leaveStartDate cannot be greater than LeaveEndDate
+appliedOn by default today's date
+
