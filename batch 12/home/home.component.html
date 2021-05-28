@@ -1,0 +1,61 @@
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Menu</title>
+      <link rel="stylesheet" href="home.component.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="logo">
+            FOODZILLA
+         </div>
+         <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a [routerLink]="['about']">About</a></li>
+             <!-- <li><a [routerLink]="['KnowUs']">KnowUs</a></li> -->
+            <!-- <li><a href="#">Gallery</a></li>
+            <li><a href="#">Feedback</a></li> --> -->
+         </ul>
+      </nav>
+      <div class="center">
+        <div class="front-face">
+           <div class="contents front">
+              <p>
+                 CUSTOMER
+              </p>
+              <p>
+                VENDOR
+             </p>
+              <span>LOGIN ></span>
+           </div>
+        </div>
+        <div class="back-face">
+           <div class="contents back">
+              <h2>
+                 LOGIN 
+              </h2>
+              <span>HERE</span>
+              <div class="icons">
+                <button class="button_1"><a [routerLink]="['customerLogin']">Customer</a></button><br><br>
+               <button class="button_2"> <a [routerLink]="['vendorLogin']">Vendor</a></button> <br>
+
+              </div>
+           </div>
+        </div>
+     </div>
+     
+   </body>
+   <footer>
+      <div class="bottom">
+        
+          <span class="far fa-copyright"></span><span> 2021 All rights reserved by FOODZILLA</span>
+        
+      </div>
+    </footer>
+</html>
