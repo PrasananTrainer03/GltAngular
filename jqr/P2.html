@@ -9,9 +9,9 @@
             $("select").change(function () {
                 var student = "";
                 $("select option:selected").each(function () {
-                    student += $(this).text() +  "\n";
+                    student = $(this).text();
                 })
-                $("div").text(student).wrap('<pre />');
+                $("div").text(student);
             })
         })
     </script>
@@ -19,7 +19,7 @@
     <title></title>
 </head>
 <body>
-    <select name="student" id="student" multiple>
+    <select name="student" id="student">
         <option value="Manideep">Manideep</option>
         <option value="Manikanta">ManiKanta</option>
         <option value="Praneeth">Praneeth</option>
