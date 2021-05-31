@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("select").change(function () {
+                var student = "";
+                $("select option:selected").each(function () {
+                    student = $(this).text();
+                })
+                $("div").text(student);
+            })
+        })
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <select name="student" id="student" multiple>
+        <option value="Manideep">Manideep</option>
+        <option value="Manikanta">ManiKanta</option>
+        <option value="Praneeth">Praneeth</option>
+        <option value="Sulthana">Sulthana</option>
+        <option value="Rau">Mutyala Raju</option>
+    </select>
+    <br/><br/> 
+    <div>
+        See the Result Here
+    </div>
+</body>
+</html>
