@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js">
+    </script>
+    <script>
+        function DemoController($scope) {
+            $scope.name = "";
+
+            $scope.assign = function (nam) {
+             //   alert(nam);
+                $scope.name = nam;
+            }
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="">
+    <div ng-controller="DemoController">
+        <input type="text" name="nam" ng-model="nam" />
+        <br /><br />
+        <input type="button" value="Assign" ng-click="assign(nam)" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        Name is : {{name}}
+    </div>
+</body>
+</html>

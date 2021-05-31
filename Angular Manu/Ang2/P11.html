@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js">
+    </script>
+    <script>
+        function SimpleController($scope) {
+            $scope.items = [
+                { name: 'Srikanth', city: 'Hyderabad' },
+                { name: 'Mani', city: 'Cheerala' },
+                { name: 'Ravali', city: 'Khammam' }
+
+            ];
+            $scope.addItem = function () {
+                $scope.items.push({ name: $scope.inputData.name, city: $scope.inputData.city });
+            }
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="">
+    <div ng-controller="SimpleController">
+        Name :
+        <input type="text" ng-model="inputData.name" /> <br /><br />
+        City :
+        <input type="text" ng-model="inputData.city" /> <br /><br />
+        <button class="btn btn-primary" data-ng-click="addItem()">Add</button>
+        <ul>
+            <li ng-repeat="myItem in items">
+                Name : <b>{{myItem.name}}</b> City : <b>{{myItem.city}}</b>
+            </li>
+        </ul>
+
+    </div>
+</body>
+</html>

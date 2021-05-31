@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script>
+        function myFirstController($scope) {
+            $scope.student = {
+                firstName: 'Krishna', lastName:'Chandrika',fees:388,
+            
+            subjects: [
+                { name: 'Javascript', marks: 87 },
+                { name: 'Jquery', marks: 77 },
+                { name: 'AngularJs', marks: 87 }
+                ]
+            };
+        }
+     </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="">
+    <div ng-controller="myFirstController">
+        <table border="3">
+            <tr>
+                <th>First Name</th>
+                <td>
+                    <input type="text" name="firstName" ng-model="student.firstName" />
+                </td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td>
+                    <input type="text" name="lastName" ng-model="student.lastName" />
+                </td>
+            </tr>
+            <tr>
+                <th>Fees</th>
+                <td>
+                    <input type="number" name="fees" ng-model="student.fees" />
+                </td>
+            </tr>
+        </table>
+        <p>
+            First Name {{student.firstName}}
+        </p>
+        <p>
+            Last Name : {{student.lastName}}
+        </p>
+        <p>
+            Fees : {{student.fees}}
+        </p>
+        <tr>
+            <th>Subjects</th>
+            <td>
+                <ul>
+                    <li ng-repeat="subject in student.subjects | filter: subjectName | orderBy:'marks'">
+                        {{subject.name + ', marks : ' +subject.marks}}
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </div>
+ 
+</body>
+</html>

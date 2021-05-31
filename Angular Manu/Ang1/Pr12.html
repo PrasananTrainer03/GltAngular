@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script>
+        function firstController($scope) {
+            $scope.manager = "Vandana";
+        }
+        function secondController($scope) {
+            $scope.manager = "Lingaraj";
+        }
+        function thirdController($scope) {
+            $scope.manager = "RamaKrishna";
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="">
+    <div ng-controller="firstController">
+        {{manager}}
+        <div ng-controller="secondController">
+            {{manager}}
+            <div ng-controller="thirdController">
+                {{manager}}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

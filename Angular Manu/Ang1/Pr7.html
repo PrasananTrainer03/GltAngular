@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="">
+    No :
+    <input type="number" name="empno" ng-model="empno" /> <br /><br/>
+    <div ng-switch="empno">
+        <div ng-switch-when="1">
+            <p>Hi I am Srikanth Reddy</p>
+        </div>
+        <div ng-switch-when="2">
+            <p>Hi I am Rekha</p>
+        </div>
+        <div ng-switch-when="3">
+            <p>Hi I am venu gopal</p>
+        </div>
+        <div ng-switch-when="4">
+            <p>Hi I am Manoj</p>
+        </div>
+        <div ng-switch-when="5">
+            <p>Hi I am Ravali</p>
+        </div>
+        <div ng-switch-default>
+            <p>Invalid Value...</p>
+        </div>
+    </div>
+</body>
+</html>

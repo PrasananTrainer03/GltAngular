@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        table, td, th {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+            table tr:nth-child(odd) {
+                background-color: #f2f2f2;
+            }
+
+            table tr:nth-child(even) {
+                background-color: #ffffff;
+            }
+    </style>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+    </script>
+    <script>
+        var mainApp = angular.module("mainApp", []);
+        mainApp.controller("studentController", function ($scope) {
+            $scope.student = {
+                firstName: "Venu",
+                lastName: "Gopal",
+                fee: 500,
+
+                subjects: [
+                    { name: 'AngularJs', marks: 87 },
+                    { name: "HTML 5", marks: 99 },
+                    { name: "Dotnet", marks: 84 }
+                ],
+
+                fullName: function () {
+                    var studentObject;
+                    studentObject = $scope.student;
+                    return studentObject.firstName + " " + studentObject.lastName;
+                }
+            };
+        });
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="mainApp">
+    <div ng-controller="studentController">
+        <table border="3">
+            <tr>
+                <th>First Name</th>
+                <td>
+                    <input type="text" ng-model="student.firstName" />
+                </td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td>
+                    <input type="text" ng-model="student.lastName" />
+                </td>
+            </tr>
+            <tr>
+                <th>Fees </th>
+                <td>
+                    <input type="text" ng-model="student.fee" />
+                </td>
+            </tr>
+            <tr>
+                <th>Full Name</th>
+                <td>
+                    {{student.fullName() | uppercase}}
+                </td>
+            </tr>
+            <tr>
+                <th>Subject</th>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <th>Name</th>
+                            <th>Marks</th>
+                        </tr>
+                        <tr ng-repeat="sub in student.subjects">
+                            <td>
+                                {{sub.name}}
+                            </td>
+                            <td>
+                                {{sub.marks}}
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

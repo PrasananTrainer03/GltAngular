@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script>
+angular.module("glt", [])
+    .controller("secondController", function ($scope) {
+        $scope.firstName = "Srikanth";
+        $scope.lastName = "Reddy";
+
+        $scope.getFullName = function () {
+            return $scope.firstName + " " + $scope.lastName;
+        };
+
+        })
+            .controller("firstController", function ($scope) {
+                $scope.firstName = "Krishna";
+                $scope.lastName = "Chandrika";
+
+                $scope.getFullName = function () {
+                    return $scope.firstName + " " + $scope.lastName;
+                };
+
+            });
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="glt">
+    <div ng-controller="firstController">
+        <p>
+            First Name : {{firstName}}
+        </p>
+        <p>
+            Last Name : {{lastName}}
+        </p>
+        <p>
+            Full Name : {{getFullName()}}
+        </p>
+    </div>
+    <hr/>
+    <div ng-controller="secondController">
+        <p>
+            First Name : {{firstName}}
+        </p>
+        <p>
+            Last Name : {{lastName}}
+        </p>
+        <p>
+            Full Name : {{getFullName()}}
+        </p>
+    </div>
+</body>
+</html>

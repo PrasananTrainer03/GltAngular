@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js">
+    </script>
+    <script>
+        function demoController($scope) {
+            $scope.names = [
+                { name: 'Srikanth',score:5.6,manager:'Lingaraj' },
+                { name: 'Ramya',score:8.8,manager:'RamaKrishna' },
+                { name: 'SaiKiran',score:7.6,manager:'Sai' },
+                { name: 'Shiva', score:6.6,manager:'Vandana' },
+                { name: 'Krishna Chandrika',score:8.5,manager:'Vandana' }
+            ];
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="">
+    <div ng-controller="demoController">
+        <select ng-model="myVal" ng-options="myVal.name for myVal in names">
+            <option value="">Choose</option>
+
+        </select>
+        {{myVal.name}}
+
+    </div>
+
+    <div ng-controller="demoController">
+        <select ng-model="myScore" ng-options="myScore.score for myScore in names">
+            <option value="">Choose</option>
+
+        </select>
+        {{myScore.score}}
+
+    </div>
+</body>
+</html>

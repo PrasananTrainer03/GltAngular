@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js">
+    </script>
+    <script>
+        function DemoController($scope) {
+            $scope.score = 0;
+
+            $scope.incr = function () {
+                $scope.score = $scope.score + 1;
+            }
+
+            $scope.decr = function () {
+                $scope.score = $scope.score - 1;
+            }
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="">
+    <div ng-controller="DemoController">
+        {{score}}
+        <br /><br />
+        <input type="button" value="Incr" ng-click="incr()" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" value="Decr" ng-click="decr()" />
+        <br /><br />
+        Score : <b> {{score}}</b>
+    </div>
+</body>
+</html>

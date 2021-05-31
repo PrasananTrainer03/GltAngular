@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script>
+        angular.module("glt", [])
+            .controller("firstController", function ($scope) {
+                $scope.firstName = "Krishna";
+                $scope.lastName = "Chandrika";
+            });
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="glt">
+    <div ng-controller="firstController">
+        <p>
+            First Name : {{firstName}}
+        </p>
+        <p>
+            Last Name : {{lastName}}
+        </p>
+    </div>
+</body>
+</html>

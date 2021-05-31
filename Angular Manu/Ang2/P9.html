@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js">
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="">
+    <h3>1. Show</h3>
+    <input type="checkbox" ng-model="mustShow" value="Show" />
+    <div ng-show="mustShow">
+        Hi how r You what are you doing...<br />
+        Working with Angular JS Events Program... <br />
+    </div>
+    <h3>2. Hide</h3> <br />
+    <label>Hide the Data: <input type="checkbox" ng-model="mustHide" value="Hide Me" /></label><br />
+    <div ng-hide="mustHide">
+        This is Hiding Pane <br />
+        Welcome to this Pane <br />
+    </div>
+</body>
+</html>

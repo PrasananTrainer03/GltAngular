@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script>
+        function uicontroller($scope, $rootScope) {
+            $scope.topic = "Angular Js";
+            $scope.timing = "8 to 9";
+            $scope.exam = "Monday May 11";
+            $rootScope.company = "GreyLine Technologies...";
+
+            $scope.details = function () {
+                return $scope.topic + " " + $scope.timing + " " + $scope.exam;
+            };
+        }
+
+        function javacontroller($scope) {
+            $scope.topic = "Java OOPS";
+            $scope.timing = "1.30 to 3";
+            $scope.exam = "Friday at May 7";
+        }
+
+        function uiNewController($scope) {
+            $scope.topic = "HTML Going on...";
+            $scope.timing = "12 to 1.30";
+            $scope.exam = "No Exam This week";
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+    </head >
+<body ng-app="">
+    <div ng-controller="uicontroller">
+        <p>
+            <b>
+                Details of First Controller
+            </b>
+        </p>
+        Topic : {{topic}}
+        Timing : {{timing}}
+        <b>Company :  {{company}}</b>
+        Exam : {{exam}}
+        Details : {{details()}}
+    </div>
+    <div ng-controller="javacontroller">
+        <p>
+         
+                Details of Second Controller
+           
+        </p>
+        Topic : {{topic}}
+      Timing : {{timing}}
+    <b> company : {{company}}</b>
+        Exam : {{exam}}
+    </div>
+    <div ng-controller="uiNewController">
+        <p>
+            <b>
+                Details of UI-New Controller
+            </b>
+        </p>
+        Topic : {{topic}}
+    <b>        Company : {{company}} </b>
+        Timing : {{timing}}
+        Exam : {{exam}}
+    </div>
+</body>
+</html >

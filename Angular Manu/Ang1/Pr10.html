@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script>
+        function myFirstController($scope) {
+            $scope.firstName = "Pravin";
+            $scope.lastName = "Solunke";
+
+            $scope.getFullName = function () {
+                return $scope.firstName + " " + $scope.lastName;
+            };
+        }
+        function secondController($scope) {
+            $scope.firstName = "Srikanth";
+            $scope.lastName = "Reddy";
+
+            $scope.getFullName = function () {
+                return $scope.firstName + " " + $scope.lastName;
+            };
+        }
+        function thirdController($scope) {
+            $scope.firstName = "Venu";
+            $scope.lastName = "Gopal";
+
+            $scope.getFullName = function () {
+                return $scope.firstName + " " + $scope.lastName;
+            };
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="">
+    <div ng-controller="myFirstController">
+        First Name : {{firstName}}
+        Last Name : {{lastName}}
+        Full Name : {{getFullName()}}
+    </div>
+    <hr/>
+    <div ng-controller="secondController">
+        First Name : {{firstName}}
+        Last Name : {{lastName}}
+        Full Name : {{getFullName()}}
+    </div>
+    <hr/>
+    <div ng-controller="thirdController">
+        First Name : {{firstName}}
+        Last Name : {{lastName}}
+        Full Name : {{getFullName()}}
+    </div>
+</body>
+</html>

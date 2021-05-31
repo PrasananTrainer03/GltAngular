@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="" ng-init="scores=[52,66,31,77,32,88]">
+    Array Elements are : <br/>
+    <ol type="A">
+        <li ng-repeat="c in scores">
+            <div ng-if="c%2==0">
+                {{c}}
+            </div>
+        </li>
+    </ol>
+</body>
+</html>

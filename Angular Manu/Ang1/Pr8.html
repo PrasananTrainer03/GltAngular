@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="">
+    <center>
+
+        Enter a Number :
+        <input type="text" ng-model="Number" /> <br /><br />
+        <div ng-switch="Number">
+            <div ng-switch-when="1" style="width: 150px; background-color: red; text-align: center;">You selected 1</div>
+            <div ng-switch-when="2" style="width: 150px; background-color: green; text-align: center;">You Selected 2</div>
+            <div ng-switch-when="3" style="width: 150px; background-color: yellow; text-align: center;">You Selected 3</div>
+            <div ng-switch-when="4" style="width: 150px; background-color: fuchsia; text-align: center;">You Selected 4</div>
+            <div ng-switch-when="5" style="width: 150px; background-color: orange; text-align: center;">You Selected 5</div>
+            <div ng-switch-default style="width: 150px; background-color: lightgray; text-align: center;">None</div>
+        </div>
+    </center>
+</body>
+</html>
