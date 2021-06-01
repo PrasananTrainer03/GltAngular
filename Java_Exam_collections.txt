@@ -1,0 +1,13 @@
+Agent
+   agentId
+   firstName
+   lastName
+   city
+   premium
+
+
+agentId > 0
+firstName,lastName must be min 3 chars and max 12 chars
+city min 2 chars and max 15 chars
+premium from 1000 to 50000 
+
