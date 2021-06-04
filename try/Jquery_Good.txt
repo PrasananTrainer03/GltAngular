@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of jQuery Animation Effects</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    img{
+        position: relative; /* Required to move element */
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("img").animate({
+            left: 300
+        });
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button">Start Animation</button>
+    <p>
+    	<img src="/examples/images/mushroom.jpg" alt="Mushroom">
+    </p>
+</body>
+</html>
+__________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of jQuery Multiple Properties Animation</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+        background: #9d7ede;
+        margin-top: 30px;
+        border-style: solid; /* Required to animate border width */
+        border-color: #6f40ce;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".box").animate({
+            width: "300px",
+            height: "300px",
+            marginLeft: "150px",
+            borderWidth: "10px",
+            opacity: 0.5
+        });
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button">Start Animation</button>
+    <div class="box"></div>
+</body>
+</html>
+
+___________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of jQuery Queued Animation</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+        background: #9d7ede;
+        margin-top: 30px;
+        border-style: solid; /* Required to animate border width */
+        border-color: #6f40ce;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".box")
+            .animate({width: "300px"})
+            .animate({height: "300px"})
+            .animate({marginLeft: "150px"})
+            .animate({borderWidth: "10px"})
+            .animate({opacity: 0.5});
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button">Start Animation</button>
+    <div class="box"></div>
+</body>
+</html>
+
+______________________________________________________________________________________________
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of jQuery Animation with Relative Values</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+        background: #9d7ede;
+        margin-top: 30px;
+        position: relative; /* Required to move element */
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".box").animate({            
+            top: "+=50px",
+            left: "+=50px",
+            width: "+=50px",
+            height: "+=50px"
+        });
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button">Start Animation</button>
+    <p><strong>Note:</strong> Click the "Start Animation" button multiple times to see how the relative value works.</p>
+    <div class="box"></div>
+</body>
+</html>
+___________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of jQuery Animation with Pre-defined Values</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    .box{
+        width: 80%;
+        height: 200px;
+        background: #9d7ede;
+        margin-top: 30px;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".box").animate({
+            width: 'toggle'
+        });
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button">Toggle Animation</button>
+    <div class="box"></div>
+</body>
+</html>
+
+_______________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Executing a Function on Click Event in jQuery</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    p{
+        padding: 20px;
+        font: 20px sans-serif;
+        background: khaki;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).slideUp();
+    });
+});
+</script>
+</head>
+<body>
+    <p>Click on me and I'll disappear.</p>
+    <p>Click on me and I'll disappear.</p>
+    <p>Click on me and I'll disappear.</p>
+</body>
+</html>
+
+______________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Executing a Function on Double-click Event in jQuery</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    p{
+        padding: 20px;
+        font: 20px sans-serif;
+        background: khaki;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $("p").dblclick(function(){
+        $(this).slideUp();
+    });
+});
+</script>
+</head>
+<body>
+    <p>Double-click on me and I'll disappear.</p>
+    <p>Double-click on me and I'll disappear.</p>
+    <p>Double-click on me and I'll disappear.</p>
+</body>
+</html>
+
+________________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Executing a Function on Form Submit Event in jQuery</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    .error{
+        color: red;
+    }
+</style>
+<script>
+$(document).ready(function(){
+    $("form").submit(function(event){
+        var regex = /^[a-zA-Z]+$/;
+        var currentValue = $("#firstName").val();
+        if(regex.test(currentValue) == false){
+            $("#result").html('<p class="error">Not valid!</p>').show().fadeOut(1000);
+            // Preventing form submission
+            event.preventDefault();
+        }
+    });
+});
+</script>
+</head>
+<body>
+    <p><strong>Note:</strong> If try to submit any invalid value. It will produce an error.</p>
+    <form action="/examples/html/action.php" method="post" id="users">
+        <label for="firstName">First Name:</label>
+        <input type="text" name="first-name" id="firstName">
+        <input type="submit" value="Submit">
+        <div id="result"></div>
+    </form>    
+</body>
+</html>
+___________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Selecting the First Element in jQuery</title>
+<style>
+    .highlight{
+        background: yellow;
+    }        
+</style>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("ul li").first().addClass("highlight");
+});
+</script>
+</head>
+<body>
+	<h2>Unordered List</h2>
+    <ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+	<hr>
+	<h2>Another Unordered List</h2>
+	<ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+</body>
+</html>
+_____________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Selecting the Last Element in jQuery</title>
+<style>
+    .highlight{
+        background: yellow;
+    }        
+</style>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("ul li").last().addClass("highlight");
+});
+</script>
+</head>
+<body>
+	<h2>Unordered List</h2>
+    <ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+	<hr>
+	<h2>Another Unordered List</h2>
+	<ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+</body>
+</html>
+
+_____________________________________________________________________________________________-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Selecting an Element by Index in jQuery</title>
+<style>
+    .highlight{
+        background: yellow;
+    }        
+</style>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("ul li").eq(1).addClass("highlight");
+});
+</script>
+</head>
+<body>
+	<h2>Unordered List</h2>
+    <ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+	<hr>
+	<h2>Another Unordered List</h2>
+	<ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+</body>
+</html>
+_____________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Selecting an Element by Negative Index in jQuery</title>
+<style>
+    .highlight{
+        background: yellow;
+    }        
+</style>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("ul li").eq(-2).addClass("highlight");
+});
+</script>
+</head>
+<body>
+	<h2>Unordered List</h2>
+    <ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+	<hr>
+	<h2>Another Unordered List</h2>
+	<ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+</body>
+</html>
+______________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Filtering the Selection of Elements in jQuery via Function</title>
+<style>
+    .highlight{
+        background: yellow;
+    }        
+</style>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("ul li").filter(function(index){
+        return index % 2 !== 0;
+    }).addClass("highlight");
+});
+</script>
+</head>
+<body>
+	<h2>Unordered List</h2>
+    <ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+	<hr>
+	<h2>Another Unordered List</h2>
+	<ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+</body>
+</html>
+
+____________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Selecting the Elements by Range of Negative Indices in jQuery</title>
+<style>
+    .highlight{
+        background: yellow;
+    }        
+</style>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("ul li").slice(-2, -1).addClass("highlight");
+});
+</script>
+</head>
+<body>
+	<h2>Unordered List</h2>
+    <ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+	<hr>
+	<h2>Another Unordered List</h2>
+	<ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+</body>
+</html>
+
+_______________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Loading Data from External File using Ajax in jQuery</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#box").load("/examples/html/test-content.html");
+    });
+});
+</script>
+</head>
+<body>
+    <div id="box">
+        <h2>Click button to load new content inside DIV box</h2>
+    </div>
+    <button type="button">Load Content</button>
+</body>
+</html>
+
+____________________________________________________________________________________________________________
+
+{
+"name": "Zara Ali",
+"age" : "67",
+"sex": "female"
+}
+
+<html>
+   <head>
+      <title>The jQuery Example</title>
+      <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+		
+      <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+			
+            $("#driver").click(function(event){
+               $.getJSON('result.json', function(jd) {
+                  $('#stage').html('<p> Name: ' + jd.name + '</p>');
+                  $('#stage').append('<p>Age : ' + jd.age+ '</p>');
+                  $('#stage').append('<p> Sex: ' + jd.sex+ '</p>');
+               });
+            });
+				
+         });
+      </script>
+   </head>
+	
+   <body>
+      <p>Click on the button to load result.html file:</p>
+		
+      <div id = "stage" style = "background-color:#cc0;">
+         STAGE
+      </div>
+		
+      <input type = "button" id = "driver" value = "Load Data" />
+   </body>
+</html>
+
+_________________________________________________________________________________________________________

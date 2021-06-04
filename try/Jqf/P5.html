@@ -1,0 +1,35 @@
+﻿<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Selecting the Elements by Range of Negative Indices in jQuery</title>
+    <style>
+        .highlight {
+            background: yellow;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("ul li").slice(-2).addClass("highlight");
+
+        });
+    </script>
+</head>
+<body>
+    <h2>Unordered List</h2>
+    <ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+    <hr>
+    <h2>Another Unordered List</h2>
+    <ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+    </ul>
+</body>
+</html>
