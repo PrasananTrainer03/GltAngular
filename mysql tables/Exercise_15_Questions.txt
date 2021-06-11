@@ -1,0 +1,37 @@
+
+
+1) Display all records from Agent Table
+
+2) Display all records from Policy Table
+
+3) Display AgentId,FirstName,LastName,city,SSSn from Agent Table
+
+4) Display all records from Agent whose Gender is 'Male'
+
+5) Display all records from Agent whose MaritalStatus is 1
+
+6) Display all records from Agent Sort by City 
+
+7) Display all records from Agent Sort by Country and then by FirstName
+
+8) Display AgentID,FirstName,LastName,City,State,SSN,MaritalStatus and display as 
+   if MaritalStatus is 1 then 'Married' 
+   if MaritalStatus is 0 then 'Unmarried'
+
+9) Display All records from Policy whose Premiums > 50000
+
+10) Display all records from policy whose PayMode is 1 or 2 
+
+11) Display PolicyID,AnnualPremium,PayMode from Policy as 
+	if paymode is 1 then 'Yearly'
+        if payMode is 2 then 'Half-Yearly'
+        if payMode is 3 then 'Quarterly' 
+
+12) Display all records from Agent who born between 1980 and 1985
+
+13) Display Unique gender from Agent
+
+14) Display Unique MaritalStatus from Agent
+
+15) Display all records from Agent whose FirstName starts and ends with Same character
+
