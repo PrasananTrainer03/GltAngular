@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day4\ArrayStrDemo\ArrayStrDemo\bin\Debug\ArrayStrDemo.exe.config
+D:\dotnet_mahitha\Day4\ArrayStrDemo\ArrayStrDemo\bin\Debug\ArrayStrDemo.exe
+D:\dotnet_mahitha\Day4\ArrayStrDemo\ArrayStrDemo\bin\Debug\ArrayStrDemo.pdb
+D:\dotnet_mahitha\Day4\ArrayStrDemo\ArrayStrDemo\obj\Debug\ArrayStrDemo.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day4\ArrayStrDemo\ArrayStrDemo\obj\Debug\ArrayStrDemo.exe
+D:\dotnet_mahitha\Day4\ArrayStrDemo\ArrayStrDemo\obj\Debug\ArrayStrDemo.pdb

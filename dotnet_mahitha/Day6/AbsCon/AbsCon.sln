@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsCon", "AbsCon\AbsCon.csproj", "{7FC6A8D9-8427-4B14-B9B6-C4BE2F3FC68C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FC6A8D9-8427-4B14-B9B6-C4BE2F3FC68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC6A8D9-8427-4B14-B9B6-C4BE2F3FC68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC6A8D9-8427-4B14-B9B6-C4BE2F3FC68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC6A8D9-8427-4B14-B9B6-C4BE2F3FC68C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7B1B971-C308-46CD-81DF-AC22C25A4FA2}
+	EndGlobalSection
+EndGlobal

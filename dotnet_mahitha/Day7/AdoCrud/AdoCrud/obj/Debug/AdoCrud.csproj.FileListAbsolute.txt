@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day7\AdoCrud\AdoCrud\bin\Debug\AdoCrud.exe.config
+D:\dotnet_mahitha\Day7\AdoCrud\AdoCrud\bin\Debug\AdoCrud.exe
+D:\dotnet_mahitha\Day7\AdoCrud\AdoCrud\bin\Debug\AdoCrud.pdb
+D:\dotnet_mahitha\Day7\AdoCrud\AdoCrud\obj\Debug\AdoCrud.csprojAssemblyReference.cache
+D:\dotnet_mahitha\Day7\AdoCrud\AdoCrud\obj\Debug\AdoCrud.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day7\AdoCrud\AdoCrud\obj\Debug\AdoCrud.exe
+D:\dotnet_mahitha\Day7\AdoCrud\AdoCrud\obj\Debug\AdoCrud.pdb

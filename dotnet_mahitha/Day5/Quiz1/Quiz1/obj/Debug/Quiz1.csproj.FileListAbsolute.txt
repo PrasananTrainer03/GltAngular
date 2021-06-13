@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day5\Quiz1\Quiz1\bin\Debug\Quiz1.exe.config
+D:\dotnet_mahitha\Day5\Quiz1\Quiz1\bin\Debug\Quiz1.exe
+D:\dotnet_mahitha\Day5\Quiz1\Quiz1\bin\Debug\Quiz1.pdb
+D:\dotnet_mahitha\Day5\Quiz1\Quiz1\obj\Debug\Quiz1.csprojAssemblyReference.cache
+D:\dotnet_mahitha\Day5\Quiz1\Quiz1\obj\Debug\Quiz1.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day5\Quiz1\Quiz1\obj\Debug\Quiz1.exe
+D:\dotnet_mahitha\Day5\Quiz1\Quiz1\obj\Debug\Quiz1.pdb

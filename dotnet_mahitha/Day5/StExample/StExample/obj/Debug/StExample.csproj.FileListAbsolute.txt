@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day5\StExample\StExample\bin\Debug\StExample.exe.config
+D:\dotnet_mahitha\Day5\StExample\StExample\bin\Debug\StExample.exe
+D:\dotnet_mahitha\Day5\StExample\StExample\bin\Debug\StExample.pdb
+D:\dotnet_mahitha\Day5\StExample\StExample\obj\Debug\StExample.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day5\StExample\StExample\obj\Debug\StExample.exe
+D:\dotnet_mahitha\Day5\StExample\StExample\obj\Debug\StExample.pdb

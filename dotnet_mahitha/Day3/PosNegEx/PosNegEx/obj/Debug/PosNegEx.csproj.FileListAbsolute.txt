@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day3\PosNegEx\PosNegEx\bin\Debug\PosNegEx.exe.config
+D:\dotnet_mahitha\Day3\PosNegEx\PosNegEx\bin\Debug\PosNegEx.exe
+D:\dotnet_mahitha\Day3\PosNegEx\PosNegEx\bin\Debug\PosNegEx.pdb
+D:\dotnet_mahitha\Day3\PosNegEx\PosNegEx\obj\Debug\PosNegEx.csprojAssemblyReference.cache
+D:\dotnet_mahitha\Day3\PosNegEx\PosNegEx\obj\Debug\PosNegEx.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day3\PosNegEx\PosNegEx\obj\Debug\PosNegEx.exe
+D:\dotnet_mahitha\Day3\PosNegEx\PosNegEx\obj\Debug\PosNegEx.pdb

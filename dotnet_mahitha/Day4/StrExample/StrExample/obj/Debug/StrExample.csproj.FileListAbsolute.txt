@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day4\StrExample\StrExample\bin\Debug\StrExample.exe.config
+D:\dotnet_mahitha\Day4\StrExample\StrExample\bin\Debug\StrExample.exe
+D:\dotnet_mahitha\Day4\StrExample\StrExample\bin\Debug\StrExample.pdb
+D:\dotnet_mahitha\Day4\StrExample\StrExample\obj\Debug\StrExample.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day4\StrExample\StrExample\obj\Debug\StrExample.exe
+D:\dotnet_mahitha\Day4\StrExample\StrExample\obj\Debug\StrExample.pdb
+D:\dotnet_mahitha\Day4\StrExample\StrExample\obj\Debug\StrExample.csprojAssemblyReference.cache

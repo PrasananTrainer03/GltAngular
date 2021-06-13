@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day3\EvenOdd\EvenOdd\bin\Debug\EvenOdd.exe.config
+D:\dotnet_mahitha\Day3\EvenOdd\EvenOdd\bin\Debug\EvenOdd.exe
+D:\dotnet_mahitha\Day3\EvenOdd\EvenOdd\bin\Debug\EvenOdd.pdb
+D:\dotnet_mahitha\Day3\EvenOdd\EvenOdd\obj\Debug\EvenOdd.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day3\EvenOdd\EvenOdd\obj\Debug\EvenOdd.exe
+D:\dotnet_mahitha\Day3\EvenOdd\EvenOdd\obj\Debug\EvenOdd.pdb

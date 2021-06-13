@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day5\NamedParameters\NamedParameters\bin\Debug\NamedParameters.exe.config
+D:\dotnet_mahitha\Day5\NamedParameters\NamedParameters\bin\Debug\NamedParameters.exe
+D:\dotnet_mahitha\Day5\NamedParameters\NamedParameters\bin\Debug\NamedParameters.pdb
+D:\dotnet_mahitha\Day5\NamedParameters\NamedParameters\obj\Debug\NamedParameters.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day5\NamedParameters\NamedParameters\obj\Debug\NamedParameters.exe
+D:\dotnet_mahitha\Day5\NamedParameters\NamedParameters\obj\Debug\NamedParameters.pdb
+D:\dotnet_mahitha\Day5\NamedParameters\NamedParameters\obj\Debug\NamedParameters.csprojAssemblyReference.cache

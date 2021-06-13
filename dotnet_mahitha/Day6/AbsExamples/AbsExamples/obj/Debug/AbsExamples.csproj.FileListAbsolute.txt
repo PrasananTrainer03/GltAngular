@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day6\AbsExamples\AbsExamples\bin\Debug\AbsExamples.exe.config
+D:\dotnet_mahitha\Day6\AbsExamples\AbsExamples\bin\Debug\AbsExamples.exe
+D:\dotnet_mahitha\Day6\AbsExamples\AbsExamples\bin\Debug\AbsExamples.pdb
+D:\dotnet_mahitha\Day6\AbsExamples\AbsExamples\obj\Debug\AbsExamples.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day6\AbsExamples\AbsExamples\obj\Debug\AbsExamples.exe
+D:\dotnet_mahitha\Day6\AbsExamples\AbsExamples\obj\Debug\AbsExamples.pdb

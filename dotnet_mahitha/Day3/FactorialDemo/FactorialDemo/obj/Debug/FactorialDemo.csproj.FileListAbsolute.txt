@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day3\FactorialDemo\FactorialDemo\bin\Debug\FactorialDemo.exe.config
+D:\dotnet_mahitha\Day3\FactorialDemo\FactorialDemo\bin\Debug\FactorialDemo.exe
+D:\dotnet_mahitha\Day3\FactorialDemo\FactorialDemo\bin\Debug\FactorialDemo.pdb
+D:\dotnet_mahitha\Day3\FactorialDemo\FactorialDemo\obj\Debug\FactorialDemo.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day3\FactorialDemo\FactorialDemo\obj\Debug\FactorialDemo.exe
+D:\dotnet_mahitha\Day3\FactorialDemo\FactorialDemo\obj\Debug\FactorialDemo.pdb

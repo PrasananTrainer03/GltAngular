@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day8Ado\PropDemo\PropDemo\bin\Debug\PropDemo.exe.config
+D:\dotnet_mahitha\Day8Ado\PropDemo\PropDemo\bin\Debug\PropDemo.exe
+D:\dotnet_mahitha\Day8Ado\PropDemo\PropDemo\bin\Debug\PropDemo.pdb
+D:\dotnet_mahitha\Day8Ado\PropDemo\PropDemo\obj\Debug\PropDemo.csprojAssemblyReference.cache
+D:\dotnet_mahitha\Day8Ado\PropDemo\PropDemo\obj\Debug\PropDemo.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day8Ado\PropDemo\PropDemo\obj\Debug\PropDemo.exe
+D:\dotnet_mahitha\Day8Ado\PropDemo\PropDemo\obj\Debug\PropDemo.pdb

@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day3\CaseExNew\CaseExNew\bin\Debug\CaseExNew.exe.config
+D:\dotnet_mahitha\Day3\CaseExNew\CaseExNew\bin\Debug\CaseExNew.exe
+D:\dotnet_mahitha\Day3\CaseExNew\CaseExNew\bin\Debug\CaseExNew.pdb
+D:\dotnet_mahitha\Day3\CaseExNew\CaseExNew\obj\Debug\CaseExNew.csprojAssemblyReference.cache
+D:\dotnet_mahitha\Day3\CaseExNew\CaseExNew\obj\Debug\CaseExNew.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day3\CaseExNew\CaseExNew\obj\Debug\CaseExNew.exe
+D:\dotnet_mahitha\Day3\CaseExNew\CaseExNew\obj\Debug\CaseExNew.pdb

@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day3\PosNeg\PosNeg\bin\Debug\PosNeg.exe.config
+D:\dotnet_mahitha\Day3\PosNeg\PosNeg\bin\Debug\PosNeg.exe
+D:\dotnet_mahitha\Day3\PosNeg\PosNeg\bin\Debug\PosNeg.pdb
+D:\dotnet_mahitha\Day3\PosNeg\PosNeg\obj\Debug\PosNeg.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day3\PosNeg\PosNeg\obj\Debug\PosNeg.exe
+D:\dotnet_mahitha\Day3\PosNeg\PosNeg\obj\Debug\PosNeg.pdb

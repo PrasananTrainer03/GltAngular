@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day2\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\dotnet_mahitha\Day2\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+D:\dotnet_mahitha\Day2\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\dotnet_mahitha\Day2\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+D:\dotnet_mahitha\Day2\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day2\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+D:\dotnet_mahitha\Day2\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb

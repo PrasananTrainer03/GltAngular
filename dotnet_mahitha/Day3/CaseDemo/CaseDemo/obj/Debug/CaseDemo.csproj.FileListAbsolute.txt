@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day3\CaseDemo\CaseDemo\bin\Debug\CaseDemo.exe.config
+D:\dotnet_mahitha\Day3\CaseDemo\CaseDemo\bin\Debug\CaseDemo.exe
+D:\dotnet_mahitha\Day3\CaseDemo\CaseDemo\bin\Debug\CaseDemo.pdb
+D:\dotnet_mahitha\Day3\CaseDemo\CaseDemo\obj\Debug\CaseDemo.csprojAssemblyReference.cache
+D:\dotnet_mahitha\Day3\CaseDemo\CaseDemo\obj\Debug\CaseDemo.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day3\CaseDemo\CaseDemo\obj\Debug\CaseDemo.exe
+D:\dotnet_mahitha\Day3\CaseDemo\CaseDemo\obj\Debug\CaseDemo.pdb

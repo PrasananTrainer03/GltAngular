@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day4\ArrayEx1\ArrayEx1\bin\Debug\ArrayEx1.exe.config
+D:\dotnet_mahitha\Day4\ArrayEx1\ArrayEx1\bin\Debug\ArrayEx1.exe
+D:\dotnet_mahitha\Day4\ArrayEx1\ArrayEx1\bin\Debug\ArrayEx1.pdb
+D:\dotnet_mahitha\Day4\ArrayEx1\ArrayEx1\obj\Debug\ArrayEx1.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day4\ArrayEx1\ArrayEx1\obj\Debug\ArrayEx1.exe
+D:\dotnet_mahitha\Day4\ArrayEx1\ArrayEx1\obj\Debug\ArrayEx1.pdb

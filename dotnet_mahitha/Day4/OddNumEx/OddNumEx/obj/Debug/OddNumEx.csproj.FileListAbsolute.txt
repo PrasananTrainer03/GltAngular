@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day4\OddNumEx\OddNumEx\bin\Debug\OddNumEx.exe.config
+D:\dotnet_mahitha\Day4\OddNumEx\OddNumEx\bin\Debug\OddNumEx.exe
+D:\dotnet_mahitha\Day4\OddNumEx\OddNumEx\bin\Debug\OddNumEx.pdb
+D:\dotnet_mahitha\Day4\OddNumEx\OddNumEx\obj\Debug\OddNumEx.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day4\OddNumEx\OddNumEx\obj\Debug\OddNumEx.exe
+D:\dotnet_mahitha\Day4\OddNumEx\OddNumEx\obj\Debug\OddNumEx.pdb

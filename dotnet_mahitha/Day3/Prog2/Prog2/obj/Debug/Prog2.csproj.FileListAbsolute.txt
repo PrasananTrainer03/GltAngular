@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day3\Prog2\Prog2\bin\Debug\Prog2.exe.config
+D:\dotnet_mahitha\Day3\Prog2\Prog2\bin\Debug\Prog2.exe
+D:\dotnet_mahitha\Day3\Prog2\Prog2\bin\Debug\Prog2.pdb
+D:\dotnet_mahitha\Day3\Prog2\Prog2\obj\Debug\Prog2.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day3\Prog2\Prog2\obj\Debug\Prog2.exe
+D:\dotnet_mahitha\Day3\Prog2\Prog2\obj\Debug\Prog2.pdb

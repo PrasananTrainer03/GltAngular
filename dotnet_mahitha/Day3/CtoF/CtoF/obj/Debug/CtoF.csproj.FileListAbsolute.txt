@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day3\CtoF\CtoF\bin\Debug\CtoF.exe.config
+D:\dotnet_mahitha\Day3\CtoF\CtoF\bin\Debug\CtoF.exe
+D:\dotnet_mahitha\Day3\CtoF\CtoF\bin\Debug\CtoF.pdb
+D:\dotnet_mahitha\Day3\CtoF\CtoF\obj\Debug\CtoF.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day3\CtoF\CtoF\obj\Debug\CtoF.exe
+D:\dotnet_mahitha\Day3\CtoF\CtoF\obj\Debug\CtoF.pdb

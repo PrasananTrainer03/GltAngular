@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day4\FactorsExample\FactorsExample\bin\Debug\FactorsExample.exe.config
+D:\dotnet_mahitha\Day4\FactorsExample\FactorsExample\bin\Debug\FactorsExample.exe
+D:\dotnet_mahitha\Day4\FactorsExample\FactorsExample\bin\Debug\FactorsExample.pdb
+D:\dotnet_mahitha\Day4\FactorsExample\FactorsExample\obj\Debug\FactorsExample.csprojAssemblyReference.cache
+D:\dotnet_mahitha\Day4\FactorsExample\FactorsExample\obj\Debug\FactorsExample.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day4\FactorsExample\FactorsExample\obj\Debug\FactorsExample.exe
+D:\dotnet_mahitha\Day4\FactorsExample\FactorsExample\obj\Debug\FactorsExample.pdb

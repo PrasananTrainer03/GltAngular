@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day3\EvenShow\EvenShow\bin\Debug\EvenShow.exe.config
+D:\dotnet_mahitha\Day3\EvenShow\EvenShow\bin\Debug\EvenShow.exe
+D:\dotnet_mahitha\Day3\EvenShow\EvenShow\bin\Debug\EvenShow.pdb
+D:\dotnet_mahitha\Day3\EvenShow\EvenShow\obj\Debug\EvenShow.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day3\EvenShow\EvenShow\obj\Debug\EvenShow.exe
+D:\dotnet_mahitha\Day3\EvenShow\EvenShow\obj\Debug\EvenShow.pdb

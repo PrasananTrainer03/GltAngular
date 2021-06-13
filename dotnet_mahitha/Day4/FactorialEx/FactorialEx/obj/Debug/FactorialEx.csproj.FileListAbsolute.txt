@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day4\FactorialEx\FactorialEx\bin\Debug\FactorialEx.exe.config
+D:\dotnet_mahitha\Day4\FactorialEx\FactorialEx\bin\Debug\FactorialEx.exe
+D:\dotnet_mahitha\Day4\FactorialEx\FactorialEx\bin\Debug\FactorialEx.pdb
+D:\dotnet_mahitha\Day4\FactorialEx\FactorialEx\obj\Debug\FactorialEx.csprojAssemblyReference.cache
+D:\dotnet_mahitha\Day4\FactorialEx\FactorialEx\obj\Debug\FactorialEx.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day4\FactorialEx\FactorialEx\obj\Debug\FactorialEx.exe
+D:\dotnet_mahitha\Day4\FactorialEx\FactorialEx\obj\Debug\FactorialEx.pdb

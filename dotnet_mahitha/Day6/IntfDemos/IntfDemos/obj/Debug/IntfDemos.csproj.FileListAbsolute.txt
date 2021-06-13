@@ -1,0 +1,7 @@
+D:\dotnet_mahitha\Day6\IntfDemos\IntfDemos\bin\Debug\IntfDemos.exe.config
+D:\dotnet_mahitha\Day6\IntfDemos\IntfDemos\bin\Debug\IntfDemos.exe
+D:\dotnet_mahitha\Day6\IntfDemos\IntfDemos\bin\Debug\IntfDemos.pdb
+D:\dotnet_mahitha\Day6\IntfDemos\IntfDemos\obj\Debug\IntfDemos.csprojAssemblyReference.cache
+D:\dotnet_mahitha\Day6\IntfDemos\IntfDemos\obj\Debug\IntfDemos.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day6\IntfDemos\IntfDemos\obj\Debug\IntfDemos.exe
+D:\dotnet_mahitha\Day6\IntfDemos\IntfDemos\obj\Debug\IntfDemos.pdb

@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day6\MultiInhDemo\MultiInhDemo\bin\Debug\MultiInhDemo.exe.config
+D:\dotnet_mahitha\Day6\MultiInhDemo\MultiInhDemo\bin\Debug\MultiInhDemo.exe
+D:\dotnet_mahitha\Day6\MultiInhDemo\MultiInhDemo\bin\Debug\MultiInhDemo.pdb
+D:\dotnet_mahitha\Day6\MultiInhDemo\MultiInhDemo\obj\Debug\MultiInhDemo.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day6\MultiInhDemo\MultiInhDemo\obj\Debug\MultiInhDemo.exe
+D:\dotnet_mahitha\Day6\MultiInhDemo\MultiInhDemo\obj\Debug\MultiInhDemo.pdb

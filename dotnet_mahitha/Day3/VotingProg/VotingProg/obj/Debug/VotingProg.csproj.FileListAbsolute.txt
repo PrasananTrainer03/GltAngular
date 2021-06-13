@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day3\VotingProg\VotingProg\bin\Debug\VotingProg.exe.config
+D:\dotnet_mahitha\Day3\VotingProg\VotingProg\bin\Debug\VotingProg.exe
+D:\dotnet_mahitha\Day3\VotingProg\VotingProg\bin\Debug\VotingProg.pdb
+D:\dotnet_mahitha\Day3\VotingProg\VotingProg\obj\Debug\VotingProg.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day3\VotingProg\VotingProg\obj\Debug\VotingProg.exe
+D:\dotnet_mahitha\Day3\VotingProg\VotingProg\obj\Debug\VotingProg.pdb

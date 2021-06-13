@@ -1,0 +1,6 @@
+D:\dotnet_mahitha\Day3\EvenOddEx\EvenOddEx\bin\Debug\EvenOddEx.exe.config
+D:\dotnet_mahitha\Day3\EvenOddEx\EvenOddEx\bin\Debug\EvenOddEx.exe
+D:\dotnet_mahitha\Day3\EvenOddEx\EvenOddEx\bin\Debug\EvenOddEx.pdb
+D:\dotnet_mahitha\Day3\EvenOddEx\EvenOddEx\obj\Debug\EvenOddEx.csproj.CoreCompileInputs.cache
+D:\dotnet_mahitha\Day3\EvenOddEx\EvenOddEx\obj\Debug\EvenOddEx.exe
+D:\dotnet_mahitha\Day3\EvenOddEx\EvenOddEx\obj\Debug\EvenOddEx.pdb
