@@ -1,0 +1,61 @@
+Angular Services
+
+
+1) What is Service : 
+
+Allows you to re-use the business logic across multiple components. 
+
+Once you write the service, that code can be accessable across multiple
+components. 
+
+2) How to Create Service
+
+You can create a service, as 
+
+ng g service service_name 
+
+
+3) What is HTTP Service
+
+This is an external service implemented by various programming languages,
+can be called in component and we can bind the data. 
+
+
+
+4) How to configure HTTP Services
+
+npm install @angular/http@latest
+
+npm install rxjs-compat --save 
+
+5) What is Observable 
+
+When you send any request to service, it returns two values 
+
+It returns two values as Resolve and Reject 
+
+Resolve -> If service served successfully. 
+
+Reject -> If service contains any errors. 
+
+
+These are captured by using Observables. 
+
+Why we prefer observables is 
+
+	-> Observable can be accessable asynchronously 
+
+	-> Observables can be cancellable 
+
+	-> Observables can transmit more than one value over the time. 
+
+import { Observable } from 'rxjs';
+
+7) What is Map Operator
+
+Used to convert json data into corresponding class object. 
+
+
+
+8) How to Read JSON Data 
+
