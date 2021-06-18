@@ -1,0 +1,46 @@
+1) What is the output for the commnad
+
+select Empno,Ename from Emp 
+Having Sal > 3000;
+
+
+2) What is output for the command 
+
+select count(comm) from Emp
+
+3) What is the output for the command
+
+select empno,ename,sal from emp
+order by ename
+where sal > 2000;
+
+4) What is the output for the command 
+
+select job, sum(sal), count(*) from Emp 
+where job in('CLERK','MANAGER','PRESIDENT')
+group by job
+having sum(sal) > 2000 
+
+
+5) What is the output for the command
+
+select job, sum(sal), count(*) from Emp 
+where job in('CLERK','MANAGER','PRESIDENT')
+order by job
+group by job
+having sum(sal) > 2000 
+
+6) Write a query which displays all records whose name starts with J and 5th char is S
+
+7) Which clause used to eliminate duplicatates at time of display 
+
+8) Write a query to retrieve all records whose comm is not null 
+
+9) select * from Emp 
+order by job,ename
+
+What the above command will returns 
+
+
+10) What is the difference between WHERE and HAVING clause 
+
