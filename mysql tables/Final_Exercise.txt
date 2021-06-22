@@ -1,0 +1,51 @@
+Exercises
+
+1.	__________ constraint can be used to implements business rules.
+2.	__________ option of REFERENCES constraint is used to delete all child rows when parent row is being deleted.
+3.	Data dictionary view used to get information about constraints is _____________.
+4.	When a table has a composite primary key, where the PRIMARY KEY constraint is defined?__________
+5.	What is the relationship between COURSES and COURSE_FACULTY table?
+6.	How do you get details of all CHECK constraints of all tables?
+7.	Is it possible to create a constraint to prevent a data that is less than the system date?
+
+1.	______ function  can be used  to subtract months from a date.
+2.	The return value of ROUND (2323.343,2) is   _________.
+3.	To get the remainder of a division_____ function is used.
+4.	In Date Arithmetic __________, _______________ and ___________ operations are allowed.
+5.	____________ is  the result of LAST_DAY(curdate()) assuming curdate() is 24th August.
+6.	Which function can be used to set time portion of the DATE data type to   00:00:00, without  affecting date portion.? _________
+7.	Display details of students who have joined in the last  4 months.
+8.	Display ROLLNO, NAME, DJ and number of days between current date and DJ for each student.
+9.	Display the first Sunday since batch with code 2 started.
+10.	Display details of batches that started three or more months back.
+11.	Display the details of payments of last Monday.
+12.	__________ is the function to get number of years between two dates.
+
+Exercises
+1.	What is required to join two tables?
+2.	What is meant by self-join?
+3.	How do you qualify a column that is existing in two or more tables that are being joined?
+4.	What is table alias? Is it stored anywhere?
+5.	What happens when you join two tables without any condition?
+6.	Display rollno, student name, pay date and amount paid.
+7.	Display rollno , student name, batch code ,  stdate of batch  and faculty code.
+8.	Display rollno , student name, course name  ,  stdate  of batch  and faculty code.
+9.	Display rollno , student name, course name , faculty code and enddate of all batches that were completed.
+10.	Display students who have got more number of characters in name than the student with roll number 10.
+11.	Display rollno, student name, email , pay date and amount paid.
+12.	In previous query include the details of student who haven’t paid anything so far.
+13.	Display the details of students who have paid nothing so far.
+
+
+____________________________________________________________________________________________
+
+
+Create table EmployNew
+(   
+   empno int auto_increment primary key,   
+   ename varchar(30),
+   job varchar(30),
+   mstat enum(0,1),
+   city varchar(30),
+   salary numeric(9,2)
+);
