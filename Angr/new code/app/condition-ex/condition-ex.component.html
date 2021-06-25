@@ -1,0 +1,15 @@
+<p>condition-ex works!</p>
+
+Status : 
+<input type="checkbox" name="flag" [(ngModel)]="flag" />
+
+<div *ngIf="flag==true">
+    <p>
+        Present...
+    </p>
+</div>
+<div *ngIf="flag==false">
+    <p>
+        Absent
+    </p>
+</div>

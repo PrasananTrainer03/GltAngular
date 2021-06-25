@@ -1,0 +1,13 @@
+<p>switch-demo works!</p>
+
+Number : 
+<input type="number" name="eno" [(ngModel)]="eno" />
+<br/><br/> 
+<div [ngSwitch]="eno">  
+    <div *ngSwitchCase=1>Hi I am Ajay</div>  
+    <div *ngSwitchCase=2>Hi I am Mutyala Raju</div>
+    <div *ngSwitchCase=3>Hi I am Manikanta</div>
+    <div *ngSwitchCase=4>Hi I am Vishnu</div>  
+    <div *ngSwitchDefault>Default Option</div>  
+</div>  
+Number is : {{eno}}
